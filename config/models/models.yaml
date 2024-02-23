@@ -1,0 +1,4 @@
+classification:
+  oob:
+    pt: microsoft/dit-base
+    ft: microsoft/dit-base-finetuned-rvlcdip

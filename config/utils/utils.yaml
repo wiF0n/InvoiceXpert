@@ -1,0 +1,2 @@
+seed: 420
+run_date: ${now:%Y-%M-%D}
