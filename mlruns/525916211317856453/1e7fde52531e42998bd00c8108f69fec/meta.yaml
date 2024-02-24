@@ -1,0 +1,16 @@
+artifact_uri: file:///home/david/code/InvoiceXpert/mlruns/525916211317856453/1e7fde52531e42998bd00c8108f69fec/artifacts
+deleted_time: 1708759022037
+end_time: null
+entry_point_name: ''
+experiment_id: '525916211317856453'
+lifecycle_stage: deleted
+run_id: 1e7fde52531e42998bd00c8108f69fec
+run_name: microsoft/dit-base-finetuned-rvlcdip
+run_uuid: 1e7fde52531e42998bd00c8108f69fec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708758488934
+status: 1
+tags: []
+user_id: david

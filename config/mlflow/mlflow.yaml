@@ -1,3 +1,2 @@
-tracking_uri: .mlflow
 experiments: 
   classification: invoice-classification

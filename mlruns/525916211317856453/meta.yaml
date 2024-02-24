@@ -1,0 +1,6 @@
+artifact_location: file:///home/david/code/InvoiceXpert/mlruns/525916211317856453
+creation_time: 1708758330994
+experiment_id: '525916211317856453'
+last_update_time: 1708758330994
+lifecycle_stage: active
+name: invoice-classification
