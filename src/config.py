@@ -32,7 +32,7 @@ def init_config(
     abs_config_dir = os.path.abspath(config_dir)
 
     with initialize_config_dir(config_dir=abs_config_dir, version_base="1.1"):
-        cfg = compose(config_name=CONFIG_FILE, overrides=overrides)
+        cfg = compose(config_name=config_file, overrides=overrides)
 
         if resolve:
             OmegaConf.resolve(cfg)

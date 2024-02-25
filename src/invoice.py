@@ -24,8 +24,9 @@ _LABEL2COLOR = {
     "O": "orange",
 }
 
-
-_ITEMS_OF_INTEREST = ["B-INVOICE_DATE", "B-INVOICE_NUMBER", "B-TOTAL"]
+# Labels of interest
+# All but "O" are labels of interest
+_ITEMS_OF_INTEREST = [key for key in _LABEL2COLOR.keys() if key != "O"]
 
 
 def _unnormalize_box(
