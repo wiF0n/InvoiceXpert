@@ -2,3 +2,6 @@ classification:
   oob:
     pt: microsoft/dit-base
     ft: microsoft/dit-base-finetuned-rvlcdip
+retrieval:
+  layoutlmv3: microsoft/layoutlmv3-base
+  layoutlmv3_invoice_ft: Theivaprakasham/layoutlmv3-finetuned-invoice
