@@ -1,0 +1,15 @@
+artifact_uri: file:///home/david/code/InvoiceXpert/mlruns/525916211317856453/edb1f28c113f47fb9403a5614611c99a/artifacts
+end_time: 1708845893697
+entry_point_name: ''
+experiment_id: '525916211317856453'
+lifecycle_stage: active
+run_id: edb1f28c113f47fb9403a5614611c99a
+run_name: dit-base-invoiceXpert-full-ft
+run_uuid: edb1f28c113f47fb9403a5614611c99a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708845403371
+status: 3
+tags: []
+user_id: david

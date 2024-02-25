@@ -1,5 +1,5 @@
-r: 32
-lora_alpha: 32
+r: 64
+lora_alpha: 64
 target_modules: 
   - query
   - value
