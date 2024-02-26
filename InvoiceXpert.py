@@ -2,10 +2,6 @@
 Code for main page of the app
 """
 
-import sys
-
-sys.path.append("..")
-
 import os
 from io import BytesIO
 from PIL import Image
@@ -16,11 +12,8 @@ import streamlit as st
 from src.app_helpers import get_ner_model, get_ner_processor
 from src.invoice import process_invoice
 
-# Initialize the configuration
-config_dir = os.path.abspath("../config")
 
-
-@hydra.main(config_path="../config/", config_name="config.yaml", version_base=None)
+@hydra.main(config_path="config/", config_name="config.yaml", version_base=None)
 def app(config):
 
     # Initialize the session state
