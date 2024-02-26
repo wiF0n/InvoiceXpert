@@ -2,7 +2,6 @@
 Code for main page of the app
 """
 
-import os
 from io import BytesIO
 from PIL import Image
 
@@ -41,7 +40,7 @@ def app(config):
 
     if raw_invoice:
         # Check if the invoice has been processed
-        invoice_image = Image.open(BytesIO(raw_invoice.getvalue()))
+        invoice_image = Image.open(BytesIO(raw_invoice.getvalue())).convert("RGB")
         if not st.session_state.processed_invoice:
             st.session_state.invoice_to_display = invoice_image
         # Display the invoice
