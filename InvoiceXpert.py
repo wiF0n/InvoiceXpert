@@ -31,7 +31,7 @@ def app(config):
 
     # Upload the invoice
     raw_invoice = st.sidebar.file_uploader(
-        "Upload your invoice", type=["png", "jpg", "jpeg", "pdf"]
+        "Upload your invoice", type=["png", "jpg", "jpeg"]
     )
 
     # Load the model and processor

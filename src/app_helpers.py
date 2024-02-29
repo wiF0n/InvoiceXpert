@@ -5,8 +5,6 @@ Helper functionality for Streamlit app.
 import streamlit as st
 from transformers import LayoutLMv3ForTokenClassification, AutoProcessor
 
-from src.config import init_config as _init_config
-
 
 @st.cache_resource
 def get_ner_model(name: str) -> LayoutLMv3ForTokenClassification:
